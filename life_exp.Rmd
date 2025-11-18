@@ -7,6 +7,7 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+(indicator files from-> https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates)
 
 ```{r load-process-model, fig.width=12, fig.height=8}
 library(tidyverse)
@@ -218,4 +219,5 @@ p1
 combined_life
 treemap_plot
 bar_plot
+
 ```
